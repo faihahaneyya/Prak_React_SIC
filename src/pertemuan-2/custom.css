@@ -1,0 +1,93 @@
+/* Mengambil Font Lucu & Membulat dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap');
+
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Nunito', sans-serif; /* Font body yang ramah dan bulat */
+    background-color: #fffaf0; /* Cream "Lilin" yang super lembut */
+    background-image: 
+        radial-gradient(#ffcad4 0.5px, transparent 0.5px),
+        radial-gradient(#ffcad4 0.5px, #fffaf0 0.5px);
+    background-size: 10px 10px; /* Pola titik-titik kecil yang *cute* */
+    color: #8c7a7a; 
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container utama (The Cute Box) */
+.card {
+    max-width: 480px;
+    background: #ffffff;
+    padding: 45px;
+    border-radius: 35px; /* Sudut sangat membulat, bikin gemas */
+    box-shadow: 0 10px 0 #fad4d8; /* Bayangan tebal berwarna pink (gaya retro/pop) */
+    position: relative;
+    border: 4px solid #fad4d8; /* Border tebal ala kartun */
+    overflow: visible;
+}
+
+/* Dekorasi Tanda Kutip Imut */
+.card::before {
+    content: "♥"; /* Ganti tanda kutip jadi hati agar imut */
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 50px;
+    color: #ff8fa3;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: 4px solid #fad4d8;
+}
+
+/* Judul (Contoh: "Daily Sweet Words") */
+h1 {
+    font-family: 'Fredoka One', cursive; /* Font judul yang *chubby* */
+    font-size: 1.5rem;
+    color: #ff8fa3; 
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-shadow: 2px 2px 0 #fff0f3;
+}
+
+/* Isi Quote */
+p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-weight: 700; /* Font sedikit tebal */
+    color: #705d5d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Garis pemisah lucu */
+hr {
+    border: none;
+    height: 6px;
+    background: repeating-linear-gradient(
+        45deg,
+        #fee2e2,
+        #fee2e2 10px,
+        #fff 10px,
+        #fff 20px
+    ); /* Pola garis-garis *lollipop* */
+    border-radius: 10px;
+    margin: 25px auto;
+    width: 80%;
+}
+
+/* Nama Pengutip/Greeting */
+small {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive; /* Ikut pakai font lucu */
+    text-align: center;
+    color: #fca5a5; 
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
