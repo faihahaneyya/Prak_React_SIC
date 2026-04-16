@@ -1,49 +1,74 @@
-import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
+import { FaShoppingCart, FaTruck, FaBan, FaDollarSign, FaUtensils, FaChartBar } from "react-icons/fa";
 import PageHeader from "../components/PageHeader";
 
 export default function Dashboard() {
+  const stats = [
+    { label: "Orders", val: "75", icon: <FaShoppingCart />, color: "bg-pink-200" },
+    { label: "Delivered", val: "175", icon: <FaTruck />, color: "bg-yellow-200" },
+    { label: "Canceled", val: "40", icon: <FaBan />, color: "bg-red-200" },
+    { label: "Revenue", val: "128jt", icon: <FaDollarSign />, color: "bg-orange-200" },
+  ];
+
+  const chartData = [
+    { day: "Mon", val: "60%", col: "bg-pink-200" },
+    { day: "Tue", val: "80%", col: "bg-yellow-200" },
+    { day: "Wed", val: "40%", col: "bg-pink-200" },
+    { day: "Thu", val: "90%", col: "bg-yellow-200" },
+    { day: "Fri", val: "70%", col: "bg-pink-200" },
+  ];
+
   return (
-    <div id="dashboard-container">
+    <div className="space-y-6 animate-in fade-in duration-500">
       <PageHeader />
-      <div id="dashboard-grid" className="p-5 grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-        <div id="dashboard-orders" className="flex items-center space-x-5 bg-white rounded-lg shadow-md p-4">
-          <div id="orders-icon" className="bg-hijau rounded-full p-4">
-            <FaShoppingCart className="text-3xl text-white" />
+      
+      {/* Grid Stats */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-4">
+        {stats.map((item, index) => (
+          <div key={index} className="bg-white p-6 rounded-[35px] shadow-sm border-b-4 border-pink-50 hover:-translate-y-1 transition-transform">
+            <div className={`${item.color} w-14 h-14 rounded-2xl flex items-center justify-center text-white text-2xl mb-4`}>
+              {item.icon}
+            </div>
+            <p className="text-pink-200 text-xs font-black uppercase tracking-widest">{item.label}</p>
+            <h3 className="text-2xl font-black text-gray-700">{item.val}</h3>
           </div>
-          <div id="orders-info" className="flex flex-col">
-            <span id="orders-count" className="text-2xl font-bold">75</span>
-            <span id="orders-text" className="text-gray-400">Total Orders</span>
+        ))}
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+        {/* IMPROVISASI BARU: DAILY PROGRESS CHART */}
+        <div className="bg-white p-8 rounded-[40px] shadow-sm border border-pink-50">
+          <h3 className="font-black text-pink-400 text-xl flex items-center gap-2 mb-8">
+            <FaChartBar className="text-yellow-400" /> Daily Sweet Progress
+          </h3>
+          <div className="flex items-end justify-between h-40 px-4">
+            {chartData.map((d, i) => (
+              <div key={i} className="flex flex-col items-center gap-2 w-full">
+                <div className={`${d.col} w-8 rounded-t-xl transition-all duration-1000`} style={{ height: d.val }}></div>
+                <span className="text-[10px] font-bold text-pink-300">{d.day}</span>
+              </div>
+            ))}
           </div>
         </div>
 
-        <div id="dashboard-delivered" className="flex items-center space-x-5 bg-white rounded-lg shadow-md p-4">
-          <div id="delivered-icon" className="bg-biru rounded-full p-4">
-            <FaTruck className="text-3xl text-white" />
-          </div>
-          <div id="delivered-info" className="flex flex-col">
-            <span id="delivered-count" className="text-2xl font-bold">175</span>
-            <span id="delivered-text" className="text-gray-400">Total Delivered</span>
-          </div>
-        </div>
-
-        <div id="dashboard-canceled" className="flex items-center space-x-5 bg-white rounded-lg shadow-md p-4">
-          <div id="canceled-icon" className="bg-merah rounded-full p-4">
-            <FaBan className="text-3xl text-white" />
-          </div>
-          <div id="canceled-info" className="flex flex-col">
-            <span id="canceled-count" className="text-2xl font-bold">40</span>
-            <span id="canceled-text" className="text-gray-400">Total Canceled</span>
-          </div>
-        </div>
-
-        <div id="dashboard-revenue" className="flex items-center space-x-5 bg-white rounded-lg shadow-md p-4">
-          <div id="revenue-icon" className="bg-kuning rounded-full p-4">
-            <FaDollarSign className="text-3xl text-white" />
-          </div>
-          <div id="revenue-info" className="flex flex-col">
-            <span id="revenue-amount" className="text-2xl font-bold">Rp.128</span>
-            <span id="revenue-text" className="text-gray-400">Total Revenue</span>
-          </div>
+        {/* TABLE RECENT TREATS */}
+        <div className="bg-white p-8 rounded-[40px] shadow-sm border border-yellow-50">
+          <h3 className="font-black text-pink-400 text-xl flex items-center gap-2 mb-6">
+            <FaUtensils className="text-yellow-400" /> Recent Treats
+          </h3>
+          <table className="w-full text-sm font-bold text-gray-600">
+             <tbody>
+               <tr className="border-b border-pink-50">
+                 <td className="py-3">Ahmad Dhani</td>
+                 <td className="py-3 text-pink-300">Strawberry...</td>
+                 <td className="py-3 text-right"><span className="bg-pink-100 text-pink-500 px-3 py-1 rounded-full text-[9px]">SWEET</span></td>
+               </tr>
+               <tr>
+                 <td className="py-3">Siti Badriah</td>
+                 <td className="py-3 text-yellow-500">Lemon Tea...</td>
+                 <td className="py-3 text-right"><span className="bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full text-[9px]">FRESH</span></td>
+               </tr>
+             </tbody>
+          </table>
         </div>
       </div>
     </div>

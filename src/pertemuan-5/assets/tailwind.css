@@ -18,14 +18,12 @@
   --font-barlow: "Barlow", sans-serif;
   --font-poppins: "Poppins", sans-serif;
 
-  --color-latar: #f3f4f6;
-  --color-teks: #374151;
-  --color-teks-samping: #6b7280;
-  --color-garis: #e5e7eb;
-  --color-hijau: #00B074;
-  --color-merah: #ef4444;
-  --color-biru: #3b82f6;
-  --color-kuning: #f59e0b;
+  /* Warna Pastel Baru */
+  --color-pink-pastel: #FFD1DC;
+  --color-yellow-pastel: #FFF9C4;
+  --color-peach: #FFECB3;
+  --color-hijau: #B2DFDB; /* Hijau mint pastel */
+  --color-latar: #FFF5F7; /* Background pink sangat muda */
 }
 
 body {
