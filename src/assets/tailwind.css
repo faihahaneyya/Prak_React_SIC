@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Barlow';
+  /* Hapus huruf 's' pada /fonts/ menjadi /font/ */
+  src: url('/font/Barlow-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  /* Sesuaikan juga dengan nama folder yang ada di folder public */
+  src: url('/font/Poppins-BlackItalic.ttf') format('truetype');
+}
+
+
+@theme {
+  --font-barlow: "Barlow", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  /* Warna Pastel Baru */
+  --color-pink-pastel: #FFD1DC;
+  --color-yellow-pastel: #FFF9C4;
+  --color-peach: #FFECB3;
+  --color-hijau: #B2DFDB; /* Hijau mint pastel */
+  --color-latar: #FFF5F7; /* Background pink sangat muda */
+}
+
+body {
+  @apply font-barlow;
+}
