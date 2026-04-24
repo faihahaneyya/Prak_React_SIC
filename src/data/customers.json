@@ -1,0 +1,212 @@
+[
+  {
+    "id": "C-01",
+    "name": "Taylor Swift",
+    "email": "taylor@swift.com",
+    "phone": "123-456-7890",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-02",
+    "name": "Ed Sheeran",
+    "email": "ed@sheeran.com",
+    "phone": "123-456-7891",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-03",
+    "name": "Adele Adkins",
+    "email": "adele@music.com",
+    "phone": "123-456-7892",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-04",
+    "name": "Harry Styles",
+    "email": "harry@styles.com",
+    "phone": "123-456-7893",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-05",
+    "name": "Billie Eilish",
+    "email": "billie@eilish.com",
+    "phone": "123-456-7894",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-06",
+    "name": "Bruno Mars",
+    "email": "bruno@mars.com",
+    "phone": "123-456-7895",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-07",
+    "name": "Dua Lipa",
+    "email": "dua@lipa.com",
+    "phone": "123-456-7896",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-08",
+    "name": "Justin Bieber",
+    "email": "justin@bieber.com",
+    "phone": "123-456-7897",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-09",
+    "name": "Ariana Grande",
+    "email": "ariana@grande.com",
+    "phone": "123-456-7898",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-10",
+    "name": "The Weeknd",
+    "email": "abel@xo.com",
+    "phone": "123-456-7899",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-11",
+    "name": "Olivia Rodrigo",
+    "email": "olivia@rodrigo.com",
+    "phone": "123-456-7900",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-12",
+    "name": "Shawn Mendes",
+    "email": "shawn@mendes.com",
+    "phone": "123-456-7901",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-13",
+    "name": "Selena Gomez",
+    "email": "selena@gomez.com",
+    "phone": "123-456-7902",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-14",
+    "name": "Charlie Puth",
+    "email": "charlie@puth.com",
+    "phone": "123-456-7903",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-15",
+    "name": "Lana Del Rey",
+    "email": "lana@delrey.com",
+    "phone": "123-456-7904",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-16",
+    "name": "Post Malone",
+    "email": "post@malone.com",
+    "phone": "123-456-7905",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-17",
+    "name": "Katy Perry",
+    "email": "katy@perry.com",
+    "phone": "123-456-7906",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-18",
+    "name": "Sam Smith",
+    "email": "sam@smith.com",
+    "phone": "123-456-7907",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-19",
+    "name": "Lady Gaga",
+    "email": "gaga@mothermonster.com",
+    "phone": "123-456-7908",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-20",
+    "name": "John Mayer",
+    "email": "john@mayer.com",
+    "phone": "123-456-7909",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-21",
+    "name": "Camila Cabello",
+    "email": "camila@cabello.com",
+    "phone": "123-456-7910",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-22",
+    "name": "Coldplay",
+    "email": "chris@coldplay.com",
+    "phone": "123-456-7911",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-23",
+    "name": "Sia Furler",
+    "email": "sia@sia.com",
+    "phone": "123-456-7912",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-24",
+    "name": "Drake",
+    "email": "drake@ovo.com",
+    "phone": "123-456-7913",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-25",
+    "name": "Beyoncé",
+    "email": "beyonce@queen.com",
+    "phone": "123-456-7914",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-26",
+    "name": "Eminem",
+    "email": "marshall@slim.com",
+    "phone": "123-456-7915",
+    "Loyalty": "Bronze"
+  },
+  {
+    "id": "C-27",
+    "name": "Halsey",
+    "email": "ashley@halsey.com",
+    "phone": "123-456-7916",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-28",
+    "name": "Troye Sivan",
+    "email": "troye@sivan.com",
+    "phone": "123-456-7917",
+    "Loyalty": "Gold"
+  },
+  {
+    "id": "C-29",
+    "name": "Demi Lovato",
+    "email": "demi@lovato.com",
+    "phone": "123-456-7918",
+    "Loyalty": "Silver"
+  },
+  {
+    "id": "C-30",
+    "name": "Zayn Malik",
+    "email": "zayn@malik.com",
+    "phone": "123-456-7919",
+    "Loyalty": "Gold"
+  }
+]

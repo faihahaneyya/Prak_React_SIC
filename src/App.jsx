@@ -20,10 +20,12 @@ function App() {
         <div id="main-content" className="flex-1 p-4">
           <Header />
           <Routes>
-             <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
             <Route path="/" element={<Dashboard />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/customers" element={<Customers />} />
+            <Route path="/error/:code" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
