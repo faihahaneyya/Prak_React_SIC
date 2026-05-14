@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "tittle": "Essence Mascara Lash Princess",
+    "code": "PRD-001",
+    "category": "beauty",
+    "brand": "Essence",
+    "price": 9.99,
+    "stock": 5
+  },
+  {
+    "id": "2",
+    "tittle": "Eyeshadow Palette with Mirror",
+    "code": "PRD-002",
+    "category": "beauty",
+    "brand": "Glamour Beauty",
+    "price": 19.99,
+    "stock": 44
+  },
+  {
+    "id": "3",
+    "tittle": "Powder Canister",
+    "code": "PRD-003",
+    "category": "beauty",
+    "brand": "Velvet Touch",
+    "price": 14.99,
+    "stock": 18
+  },
+  {
+    "id": "4",
+    "tittle": "Red Lipstick",
+    "code": "PRD-004",
+    "category": "beauty",
+    "brand": "Chic Cosmetics",
+    "price": 12.99,
+    "stock": 68
+  },
+  {
+    "id": "5",
+    "tittle": "Red Nail Polish",
+    "code": "PRD-005",
+    "category": "beauty",
+    "brand": "Nail Couture",
+    "price": 8.99,
+    "stock": 71
+  },
+  {
+    "id": "6",
+    "tittle": "Calvin Klein CK One",
+    "code": "PRD-006",
+    "category": "fragrances",
+    "brand": "Calvin Klein",
+    "price": 49.99,
+    "stock": 17
+  },
+  {
+    "id": "7",
+    "tittle": "Chanel Coco Noir Eau De",
+    "code": "PRD-007",
+    "category": "fragrances",
+    "brand": "Chanel",
+    "price": 129.99,
+    "stock": 41
+  },
+  {
+    "id": "8",
+    "tittle": "Dior J'adore",
+    "code": "PRD-008",
+    "category": "fragrances",
+    "brand": "Dior",
+    "price": 89.99,
+    "stock": 91
+  },
+  {
+    "id": "9",
+    "tittle": "Dolce Shine Eau de",
+    "code": "PRD-009",
+    "category": "fragrances",
+    "brand": "Dolce & Gabbana",
+    "price": 69.99,
+    "stock": 3
+  },
+  {
+    "id": "10",
+    "tittle": "Gucci Bloom Eau de",
+    "code": "PRD-010",
+    "category": "fragrances",
+    "brand": "Gucci",
+    "price": 79.99,
+    "stock": 93
+  },
+  {
+    "id": "11",
+    "tittle": "Annibale Colombo Bed",
+    "code": "PRD-011",
+    "category": "furniture",
+    "brand": "Annibale Colombo",
+    "price": 1899.99,
+    "stock": 47
+  },
+  {
+    "id": "12",
+    "tittle": "Annibale Colombo Sofa",
+    "code": "PRD-012",
+    "category": "furniture",
+    "brand": "Annibale Colombo",
+    "price": 2499.99,
+    "stock": 16
+  },
+  {
+    "id": "13",
+    "tittle": "Bedside Table African Cherry",
+    "code": "PRD-013",
+    "category": "furniture",
+    "brand": "Furniture Co.",
+    "price": 299.99,
+    "stock": 16
+  },
+  {
+    "id": "14",
+    "tittle": "Knoll Saarinen Executive Conference Chair",
+    "code": "PRD-014",
+    "category": "furniture",
+    "brand": "Knoll",
+    "price": 499.99,
+    "stock": 47
+  },
+  {
+    "id": "15",
+    "tittle": "Wooden Bathroom Sink With Mirror",
+    "code": "PRD-015",
+    "category": "furniture",
+    "brand": "Bath Trends",
+    "price": 799.99,
+    "stock": 95
+  },
+  {
+    "id": "16",
+    "tittle": "Apple",
+    "code": "PRD-016",
+    "category": "groceries",
+    "brand": "Fresh Farms",
+    "price": 1.99,
+    "stock": 9
+  },
+  {
+    "id": "17",
+    "tittle": "Beef Steak",
+    "code": "PRD-017",
+    "category": "groceries",
+    "brand": "Prime Cuts",
+    "price": 12.99,
+    "stock": 96
+  },
+  {
+    "id": "18",
+    "tittle": "Cat Food - Canine Creek Adult",
+    "code": "PRD-018",
+    "category": "groceries",
+    "brand": "Canine Creek",
+    "price": 8.99,
+    "stock": 63
+  },
+  {
+    "id": "19",
+    "tittle": "Chicken Meat",
+    "code": "PRD-019",
+    "category": "groceries",
+    "brand": "Fresh Farms",
+    "price": 9.99,
+    "stock": 87
+  },
+  {
+    "id": "20",
+    "tittle": "Cooking Oil",
+    "code": "PRD-020",
+    "category": "groceries",
+    "brand": "Naturals",
+    "price": 4.99,
+    "stock": 22
+  },
+  {
+    "id": "21",
+    "tittle": "Cucumber",
+    "code": "PRD-021",
+    "category": "groceries",
+    "brand": "Fresh Farms",
+    "price": 1.49,
+    "stock": 22
+  },
+  {
+    "id": "22",
+    "tittle": "Dog Food",
+    "code": "PRD-022",
+    "category": "groceries",
+    "brand": "Paws n Claws",
+    "price": 10.99,
+    "stock": 40
+  },
+  {
+    "id": "23",
+    "tittle": "Eggs",
+    "code": "PRD-023",
+    "category": "groceries",
+    "brand": "Farm Fresh",
+    "price": 2.99,
+    "stock": 37
+  },
+  {
+    "id": "24",
+    "tittle": "Fish Steak",
+    "code": "PRD-024",
+    "category": "groceries",
+    "brand": "Ocean Select",
+    "price": 14.99,
+    "stock": 99
+  },
+  {
+    "id": "25",
+    "tittle": "Green Bell Pepper",
+    "code": "PRD-025",
+    "category": "groceries",
+    "brand": "Fresh Farms",
+    "price": 1.29,
+    "stock": 89
+  },
+  {
+    "id": "26",
+    "tittle": "Green Chili Pepper",
+    "code": "PRD-026",
+    "category": "groceries",
+    "brand": "Fresh Farms",
+    "price": 0.99,
+    "stock": 8
+  },
+  {
+    "id": "27",
+    "tittle": "Honey Jar",
+    "code": "PRD-027",
+    "category": "groceries",
+    "brand": "Golden Bees",
+    "price": 6.99,
+    "stock": 25
+  },
+  {
+    "id": "28",
+    "tittle": "Ice Cream",
+    "code": "PRD-028",
+    "category": "groceries",
+    "brand": "Creamery",
+    "price": 5.99,
+    "stock": 76
+  },
+  {
+    "id": "29",
+    "tittle": "Juice",
+    "code": "PRD-029",
+    "category": "groceries",
+    "brand": "Juicy Squeeze",
+    "price": 3.99,
+    "stock": 99
+  },
+  {
+    "id": "30",
+    "tittle": "Kiwi",
+    "code": "PRD-030",
+    "category": "groceries",
+    "brand": "Fresh Farms",
+    "price": 2.49,
+    "stock": 41
+  }
+]

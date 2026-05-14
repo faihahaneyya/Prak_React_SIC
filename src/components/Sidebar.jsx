@@ -1,9 +1,20 @@
 import { NavLink } from "react-router-dom";
-import { FaPlus, FaHome, FaClipboardList, FaUsers, FaStar, FaExclamationTriangle } from "react-icons/fa";
+// TAMBAHKAN FaBoxOpen di baris import ini
+import { 
+  FaPlus, 
+  FaHome, 
+  FaClipboardList, 
+  FaUsers, 
+  FaStar, 
+  FaExclamationTriangle, 
+  FaBoxOpen 
+} from "react-icons/fa";
 
 // 1. Konfigurasi menu utama
 const MENU_ITEMS = [
   { name: "Dashboard", icon: <FaHome />, path: "/" },
+  // Ubah path ke /products agar sesuai dengan App.jsx
+  { name: "Product", icon: <FaBoxOpen />, path: "/products" }, 
   { name: "Orders", icon: <FaClipboardList />, path: "/orders" },
   { name: "Customers", icon: <FaUsers />, path: "/customers" },
 ];
@@ -15,7 +26,6 @@ const ERROR_ITEMS = [
 ];
 
 export default function Sidebar() {
-
   const getMenuClass = ({ isActive }) =>
     `flex items-center gap-3 p-4 rounded-xl transition-all duration-200 font-bold ${
       isActive 
@@ -61,7 +71,6 @@ export default function Sidebar() {
         </div>
       </nav>
 
-      {/* Footer / Card Action */}
       <div className="mt-auto bg-yellow-100 p-6 rounded-[35px]">
         <p className="text-xs text-yellow-700 font-bold mb-3 text-center">
           Tambah Menu Baru?

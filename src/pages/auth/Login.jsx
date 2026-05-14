@@ -6,10 +6,8 @@ import { ImSpinner2 } from "react-icons/im";
 
 export default function Login() {
   const navigate = useNavigate();
-
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
   const [dataForm, setDataForm] = useState({
     email: "",
     password: "",
@@ -117,4 +115,4 @@ export default function Login() {
       </form>
     </div>
   );
-}git 
+}
